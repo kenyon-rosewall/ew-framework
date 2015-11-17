@@ -1,0 +1,224 @@
+
+body{
+	background-color: @body-background-color;
+}
+
+::selection {
+    background-color: @global-color-primary;
+    color: #fff;
+}
+-moz-selection {
+    background-color: @global-color-primary;
+    color: #fff;
+}
+
+.ptb-65{
+	padding: 65px 0;
+}
+
+.welcome{
+	margin: 0;
+	padding: 100px 0;
+	min-height: 450px;
+	background-origin: padding-box;
+	background-clip: border-box;
+		-moz-background-clip: border-box;
+		-webkit-background-clip: border-box;
+	background-image: @welcome-background-image;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+	background-color: @welcome-background-color;
+	h1{
+		font-size: 60px;
+		color: #fff;
+	}
+	p{
+		margin-bottom: 20px;
+		color: #fff;
+	}
+}
+
+.section-heading{
+	text-align: center;
+	h2{
+		font-size: 3em;
+		text-transform: uppercase;
+	}
+	p{
+		margin-top: 15px;
+		padding-top: 8px;
+		border-top: solid 3px @global-color-primary;
+	}
+}
+
+.white-bg{
+	margin: 0;
+	padding: 0;
+	min-height: 300px;
+	background: #fff;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+	h2{
+		text-transform: uppercase;
+		font-size: 32px;
+		color: @global-color-primary;
+	}
+}
+
+.grey-bg{
+	margin: 0;
+	padding: 0;
+	min-height: 300px;
+	background-color: #efefef;
+}
+
+.editing{
+	background-image: url('/images/editing.jpg');
+	background-position: center right;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.testimonials{
+	margin: 0;
+	padding: 0;
+	min-height: 300px;
+	background-origin: padding-box;
+	background-clip: border-box;
+		-moz-background-clip: border-box;
+		-webkit-background-clip: border-box;
+	background-image: url('/images/testimonials.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+	background-attachment: fixed;
+	background-color: @welcome-background-color;
+}
+
+.split-left{
+	margin: 0;
+	padding: 0;
+	min-height: 300px;
+	width: 50%;
+	float: left;
+	background-origin: padding-box;
+	background-clip: border-box;
+		-moz-background-clip: border-box;
+		-webkit-background-clip: border-box;
+	background-image: @welcome-background-image;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+	background-color: @welcome-background-color;
+}
+
+.split-right{
+	margin: 0;
+	padding: 0;
+	min-height: 300px;
+	width: 50%;
+	float: right;
+	background-origin: padding-box;
+	background-clip: border-box;
+		-moz-background-clip: border-box;
+		-webkit-background-clip: border-box;
+	background-image: @welcome-background-image;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+	background-color: @welcome-background-color;
+}
+
+.box{
+	margin-bottom: 8px;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.video-wrapper{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	iframe,
+	object,
+	embed{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
+
+img.mobile-phone{
+	width: 400px;
+	height: 646px;
+}
+
+.dark-overlay{
+	background-color: rgba(0,0,0,0.5);
+}
+
+p.twinmusicom{
+	margin-top: 4px;
+	font-size: 10px;
+	font-style: italic;
+	a{
+		color: #aaa;
+	}
+	a:hover{
+		text-decoration: none;
+		color: #5f5f5f;
+	}
+	
+}
+
+.primary{
+	background-color: @global-color-primary;
+	color: contrast(@global-color-primary, #222, #fff, 43%);
+}
+
+.primary-darker{
+	background-color: @global-color-primary-darker;
+	color: contrast(@global-color-primary-darker, #222, #fff, 43%);
+}
+
+.primary-lighter{
+	background-color: @global-color-primary-lighter;
+	color: contrast(@global-color-primary-lighter, #222, #fff, 43%);
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: @global-color-primary;
+  border-color: @global-color-primary-darker;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: @global-color-primary-darker;
+  border-color: @global-color-primary-very-dark;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+

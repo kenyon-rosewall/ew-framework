@@ -1,0 +1,12 @@
+
+html{background: #fff !important; color: #000 !important;}
+body{background: #fff !important; color: #000 !important;}
+#main-content{margin-left: 0 !important; width: 100% !important;}
+.no-print{display: none !important;}
+.wrapper{margin-top: 0 !important;}
+.mini-stat{border: solid #ccc 1px !important;}
+.panel{border: solid #ccc 1px !important;}
+.panel h3{font-size: 20px !important;}
+.panel p{font-size: 12px !important;}
+.panel-heading{border-bottom: solid #ccc 1px !important;}
+.divide-2{width: 50% !important; float: left !important;}

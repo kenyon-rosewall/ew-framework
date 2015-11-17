@@ -1,0 +1,127 @@
+
+a.logo{
+	margin: 25px 0 20px 15px;
+	width: 250px;
+	height: 47px;
+	text-indent: -9999px;
+	background: url('../images/explore-wisconsin-logo.png') no-repeat;
+	background-size:  250px 47px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.crumbs .breadcrumb{
+	margin: 28px 0 0 0;
+	background: none;
+}
+
+.crumbs a{
+	color: #8db67e;
+}
+
+.cover{
+	margin: 0;
+	padding: 0;
+	background-origin: padding-box;
+	background-clip: border-box;
+		-moz-background-clip: border-box;
+		-webkit-background-clip: border-box;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-image: url('../images/blur-bg.jpg');
+	background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+	position: relative;
+}
+
+.cover-search{
+	padding-top: 10%;
+	padding-bottom: 25px;
+}
+
+.cover select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 0.01px;
+	text-overflow: "";
+}
+
+.editor .row{
+	background: url('../images/editor.jpg') no-repeat;
+	background-position: bottom left;
+	background-size: 650px 300px;
+}
+
+.business .row{
+	background: url('../images/business.jpg') no-repeat;
+	background-position: bottom right;
+}
+
+.thumbnail h3{
+	margin-top: 3px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+a.thumbnail:hover{
+	text-decoration: none;
+}
+
+.thumbnail{
+	padding: 40px 10px 16px 10px;
+	text-align: center;
+	border: none;
+}
+
+.kids{
+	background-image: url('../images/people.png');
+	background-position: bottom right;
+	background-repeat: repeat-x;
+}
+
+.page-content{
+	padding: 45px 15px 50px 15px;
+}
+
+.footer{
+	padding-top: 35px;
+	padding-bottom: 0;
+	min-height: 50px;
+}
+
+.btm35{
+	padding-bottom: 35px;
+}
+
+.footer-heading h2{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.footer-heading p{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.footer-content h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.footer-social li{
+	font-size: 22px;
+}
+
+.footer-content label{
+	font-weight: 400;
+}
+
+.subfooter{
+	min-height: 45px;
+}

@@ -1,0 +1,58 @@
+{
+	"home": {
+		"path": "/",
+		"controller": "home",
+		"action": "index"
+	},
+	"map": {
+		"path": "/browse/map/?",
+		"controller": "directory",
+		"action": "map",
+		"params": "id"
+	},
+	"browse": {
+		"path": "/browse/?/?/?",
+		"controller": "directory",
+		"action": "browse",
+		"params": "category/county/city"
+	},
+	"browse_2": {
+		"path": "/browse/?",
+		"controller": "directory",
+		"action": "browse",
+		"params": "category/county/city",
+		"args": "-/-"	
+	},
+	"search": {
+		"path": "/search/?",
+		"controller": "directory",
+		"action": "search",
+		"params": "query"
+	},
+	"contact": {
+		"path": "/contact",
+		"controller": "home",
+		"action": "contact"
+	},
+	"spotlight": {
+		"path": "/spotlight/?",
+		"controller": "spotlight",
+		"action": "index",
+		"params": "slug"
+	},
+	"website-design": {
+		"path": "/website-design",
+		"controller": "home",
+		"action": "design"
+	},
+	"spotlight-page": {
+		"path": "/spotlight-page",
+		"controller": "home",
+		"action": "spotlight"
+	},
+	"e-commerce": {
+		"path": "/e-commerce",
+		"controller": "home",
+		"action": "ecommerce"
+	}
+}

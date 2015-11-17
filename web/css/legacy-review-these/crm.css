@@ -1,0 +1,13 @@
+
+.table tr td:first-child{
+	width: 50%;
+	font-weight: bold;
+}
+
+.full-width{
+	width: auto !important;
+}
+
+.panel-body .current{
+	color: #0a0;
+}

@@ -1,0 +1,29 @@
+
+header{
+	.navbar-default{
+		background-color: @navigation-background-color;
+	}
+	a.logo{
+		margin: 25px 0 20px 15px;
+		width: 250px;
+		height: 47px;
+		text-indent: -9999px;
+		background-color: @global-color-primary;
+		background-image: url('../images/explore-wisconsin-logo.png');
+		background-size: 250px 47px;
+	}
+	a.logo:hover,
+	a.logo:focus{
+		background-color: @global-color-primary !important;
+	}
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus{
+		background-color: @global-color-primary;
+		color: #fff;
+		transition: 0.2s;
+		-webkit-transition: 0.2s;
+	}
+	.navbar-form{
+		margin: 31px 0 0 15px;
+	}
+}
